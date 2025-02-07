@@ -1,12 +1,14 @@
 /* eslint-disable */
-import "bootstrap";
+/*import "bootstrap";
 import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 import "./index.html";
+*/
+console.log("✅ app.js está cargado correctamente.");
 
-window.onload = do { function() {
+window.onload = function() {
   //write your code here
   let quien = ["el perro", "un águila", "un caco", "un ciclón"];
   let accion = ["se comió", "aplastó", "aniquiló", "destrozó"];
@@ -23,8 +25,5 @@ window.onload = do { function() {
     cuando[Math.floor(Math.random() * cuando.length)];
 
   document.getElementById("excusa").innerHTML = excuse;
-  let iteracion = 0
-  let iteracion = + 1
-}; 
- } while ( iteracion <=5) 
 
+}
